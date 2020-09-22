@@ -156,17 +156,17 @@ header {
     float: right;
 }
 
-.zoomIn {
+/* .zoomIn {
     animation: zoomIn 1s;
-}
+} */
 
-.slideInLeft {
+/* .slideInLeft {
     animation:  slideInLeft 1.5s;
-}
-
+} */
+/* 
 .fadeIn {
     animation: fadeIn 1.5s;
-}
+} */
 
 
 
