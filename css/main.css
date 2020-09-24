@@ -25,6 +25,10 @@ header {
     margin-top: 120px;
 }
 
+#hello .about-me span > a {
+    margin-bottom: 5px;
+}
+
 .point:after {
     content: ".";
     color: #3333ff;
@@ -156,6 +160,73 @@ header {
     float: right;
 }
 
+/* Portfolio  */
+
+#portfolio .container .row:nth-child(2) {
+    margin-top: 15px;
+    margin-bottom: 20px;
+    display: block;
+} 
+
+#portfolio .container .row:nth-child(2) button {
+    border: none;
+    text-transform: uppercase;
+    background: none;
+    font-variant: small-caps;
+    margin-right: 15px;
+    padding: 5px 10px 5px 10px;
+}
+
+#portfolio .container .row:nth-child(2) button:focus {
+    border: 1px solid #3333ff;
+    color: #3333ff;
+    outline: #3333ff;
+    box-sizing: border-box;
+}
+
+#portfolio .container .row:nth-child(3) {
+    display: block;
+}
+
+#portfolio .container .row:nth-child(3) .grid > div{
+    overflow: hidden;
+    margin-bottom: 15px;
+    display: block;
+    box-sizing: border-box;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+#portfolio .container .row:nth-child(3) .grid > div > div {
+    overflow: hidden;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+#portfolio .container .row:nth-child(3) .grid img{
+    overflow: hidden;
+    animation: zoomOutImg 1.5s;
+    display: block;
+    border-top-left-radius: 15px;
+}
+
+#portfolio .container .row:nth-child(3) .grid > div:hover img {
+    animation: zoomInImg 1.5s;
+    
+}
+
+
+#portfolio .container .row:nth-child(3) .grid h3 {
+    font-size: 15pt;
+    font-weight: bold;
+    margin-top: 8px;
+    
+}
+
+
+
+
+
 /* .zoomIn {
     animation: zoomIn 1s;
 } */
@@ -185,6 +256,11 @@ header {
         display: block;
     }
 
+    #portfolio .container .row:nth-child(3) .grid img {
+        width: 100%;
+        height: 50%;
+    }
+
  }
 
 
@@ -206,4 +282,14 @@ header {
  @keyframes fadeIn {
     from { opacity: 0; bottom: -500px;}
     to { opacity: 1; bottom: 0px;}
+}
+
+@keyframes zoomInImg {
+    from {transform: scale(1);}
+    to { transform: scale(1.3);}
+}
+
+@keyframes zoomOutImg {
+    from {transform: scale(1.3);}
+    to { transform: scale(1);}
 }
