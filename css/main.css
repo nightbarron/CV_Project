@@ -188,10 +188,12 @@ header {
     display: block;
 }
 
+
+
 #portfolio .container .row:nth-child(3) .grid > div{
     overflow: hidden;
     margin-bottom: 15px;
-    display: block;
+    display: inline-block;
     box-sizing: border-box;
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
