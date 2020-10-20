@@ -225,6 +225,17 @@ header {
     
 }
 
+#portfolio .container .row:nth-child(3) .grid .col-md-3 {
+    height: 330px;
+}
+
+.carousel-item img{
+    overflow: hidden;
+    width: 500px;
+    height: 300px;
+    object-fit: cover;
+}
+
 
 
 

@@ -1,3 +1,5 @@
+alert("Page is developing!");
+
 $(document).ready(function(){
       $("#about-img").animate({
         width: '100%',
