@@ -177,6 +177,10 @@ header {
     padding: 5px 10px 5px 10px;
 }
 
+#portfolio .element-item  > div {
+    height: 240px;
+}
+
 #portfolio .container .row:nth-child(2) button:focus {
     border: 1px solid #3333ff;
     color: #3333ff;
