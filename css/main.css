@@ -73,6 +73,31 @@ header {
     position: relative;
 }
 
+section h4 {
+    margin-bottom: 20px;
+}
+
+section .row i {
+    color: #3333ff;
+}
+
+section .row i img {
+    height: 35px;
+    overflow: hidden;
+    object-fit: cover;
+}
+
+section .about-row ul {
+    margin-left: 20px;
+}
+
+.about-row > p {
+    font-style: italic;
+    display: block;
+    font-size: 10pt;
+    line-height: 3px;
+}
+
 .about-btns > a{
     text-transform: uppercase;
     text-align: center;
@@ -233,9 +258,10 @@ header {
     height: 330px;
 }
 
+
 .carousel-item img{
     overflow: hidden;
-    width: 500px;
+    width: 100%;
     height: 300px;
     object-fit: cover;
 }
@@ -275,7 +301,7 @@ header {
 
     #portfolio .container .row:nth-child(3) .grid img {
         width: 100%;
-        height: 50%;
+        height: 240px;
     }
 
  }
