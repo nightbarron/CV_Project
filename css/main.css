@@ -81,7 +81,7 @@ section .row i {
     color: #3333ff;
 }
 
-section .row i img {
+section .row .about-row h4 img {
     height: 35px;
     overflow: hidden;
     object-fit: cover;
