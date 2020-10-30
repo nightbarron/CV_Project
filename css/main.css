@@ -266,6 +266,14 @@ section .about-row ul {
     object-fit: cover;
 }
 
+img::before {
+    background-color: grey;
+    content: "Loading...";
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 
 
 
