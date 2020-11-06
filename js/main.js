@@ -1,4 +1,4 @@
-alert("Page is developing!");
+// alert("Page is developing!");
 
 $(document).ready(function(){
       $("#about-img").animate({
